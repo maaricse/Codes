@@ -1,7 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
-	int a=10;
+	int a;
 	scanf("%d",&a);
 	if(a==0)
 	printf("%d is a Zero",a);
@@ -9,5 +9,5 @@ void main()
 	printf("%d is a Negative Number",a);
 	else
 	printf("%d is a positive Number",a);
-	
+	return 0;
 }
